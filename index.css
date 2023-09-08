@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300');
+
+html {
+	font-family: Nunito Sans, sans-serif;
+	font-size: medium;
+}
+
+body {
+	max-width: 900px;
+	margin: auto;
+	padding: 0 20px;
+	background-color: lightskyblue;
+}
+
+img {
+	width: 100%;
+}

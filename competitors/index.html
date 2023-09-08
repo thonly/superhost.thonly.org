@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Competitors</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="icon" href="/386.png">
+        <link rel="stylesheet" href="/index.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="/index.js" type="module"></script>
+        <script src="index.js" type="module"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LZ0S4CE49V"></script>
+    </head>
+    <body>
+        <header>
+            <tl-header></tl-header>
+        </header>
+        <main>
+            <h1>Competitors</h1>
+            <section>
+                <select id="location" onchange="updateUrl(event)">
+                    <option>Fresno, CA</option>
+                    <option>Clovis, CA</option>
+                    <option>Maui, HI</option>
+                    <option>Srae Ambel, Cambodia</option>
+                </select>
+                <select id="property" onchange="updateUrl(event)">
+                    <option value="0">All Entire Places</option>
+                    <option value="1">House</option>
+                    <option value="2">Guesthouse</option>
+                    <option value="3">Apartment</option>
+                </select>
+            </section>
+            <h3>Airbnb</h3>
+            <ul>
+                <li><a id="weekday" target="_blank">Weekday</a></li>
+                <li><a id="weekend" target="_blank">Weekend</a></li>
+                <li><a id="week" target="_blank">Week</a></li>
+                <li><a id="month" target="_blank">Month</a></li>
+            </ul>
+            <h3>Furnished Finder</h3>
+            <ul>
+                <li><a id="ff" target="_blank">Month</a></li>
+            </ul>
+            <br><hr><br>
+            <h3>Tom's Airbnb</h3>
+            <ul>
+                <li><a id="tom-weekday" target="_blank">Weekday</a></li>
+                <li><a id="tom-weekend" target="_blank">Weekend</a></li>
+                <li><a id="tom-week" target="_blank">Week</a></li>
+                <li><a id="tom-month" target="_blank">Month</a></li>
+            </ul>
+            <h3>H's Airbnb</h3>
+            <ul>
+                <li><a id="h-weekday" target="_blank">Weekday</a></li>
+                <li><a id="h-weekend" target="_blank">Weekend</a></li>
+                <li><a id="h-week" target="_blank">Week</a></li>
+                <li><a id="h-month" target="_blank">Month</a></li>
+            </ul>
+        </main>
+        <footer>
+            <tl-footer></tl-footer>
+        </footer>
+    </body>
+</html>
